@@ -65,7 +65,7 @@ Clang允许用户为当前构建或安装设置标志，例如包含文件路径
 
 #### OpenCL扩展支持
 
-承影编译器在`clang/lib/Basic/Targets/RISCV.h`中定义了支持的OpenCL扩展：
+乘影编译器在`clang/lib/Basic/Targets/RISCV.h`中定义了支持的OpenCL扩展：
 
 ```cpp
 void setSupportedOpenCLOpts() override {
